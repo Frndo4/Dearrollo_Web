@@ -31,7 +31,31 @@ header{
 
 #imag_inicio img{
     border-radius: 100%;
-    border: 2px solid #fff;
+    border: 2px solid gray;
 }
 
 /*Acá están los estilos del hero*/
+
+#hero{
+    position: relative;
+}
+
+#hero #imag_fondo{
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero .informacion-contenedor #foto{
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto img{
+    border-radius: 100%;
+}
+
